@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2017",
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "isolatedModules": true,
+    
+    "paths": {
+      "@mongo/*": ["mongo/*"],
+      "@tools/*": ["tools/*"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*", "tests/**/*"]
+}
